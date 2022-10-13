@@ -10,7 +10,7 @@
 }
 
 ul li {
-  margin: 0 20px 0 0;
+  /* margin: 0 20px 0 0; */
   padding: 0;
   display: block;
   position: relative;
@@ -35,9 +35,11 @@ ul li a {
   float: left;
 }
 
-.align-right > ul {
+/* AP COMENTO ESTA LINEA */
+
+/* .align-right > ul {
   float: right;
-}
+} */
 
 #cssmenu > ul > li:after {
   content: "";

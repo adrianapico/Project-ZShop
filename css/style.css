@@ -210,6 +210,7 @@ body {
 	letter-spacing: .2px;
 }
 
+/* FOTO FONDO  */
 body .wrap-body {
 	background-image: url(../images/bg3.jpg);
 	background-position: center center;
@@ -298,14 +299,19 @@ body .wrap-body {
 }
 
 .content-box.box-style-1 {
-	background: #fff url(../images/model.png) no-repeat 100% 100%;
+	background: #fff url(../images/model.png) no-repeat 100% 0%;
 	color: #333;
+	background-size: 450px 600px;
+
+	
 }
 
 .content-box.box-style-2 {
 	background: url(../images/bg-5.jpg) 50% 50% no-repeat;
 	color: #fff;
 	position: relative;
+	
+	
 }
 
 .content-box.box-style-2:before {
@@ -528,7 +534,7 @@ article.single-post .wrap-post,
 .comments-are {
 	padding: 30px 20px;
 	position: relative;
-	margin-top: 30px;
+	/* margin-top: 30px; */
 }
 
 article {
